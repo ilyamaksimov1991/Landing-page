@@ -1,0 +1,510 @@
+body{
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Ubuntu, sans-serif;
+    color:#828282;
+    min-width: 320px;
+}
+h3{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+a{
+    font-family: Montserrat, sans-serif;
+    color:#2cc7c1;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+a:hover {
+    color:#2cc7c1;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header-table{
+    display: table;
+    width: 100% ;
+
+    background: url("../img/2.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.header-row{
+    display: table-row;
+}
+.header-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+
+}
+/* --------------------- Шапка ---------------------------*/
+.logo {
+    max-width: 550px;
+    display: inline-block;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    padding-top: 20vh;
+}
+.logo h3{
+    font-weight: bold;
+}
+.header-btn{
+    padding: 20px 0;
+}
+
+
+.btn{
+    margin: 10px;
+}
+.btn-blue{
+    background-color: #7ea4e8 ;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #4a7dd7;
+    color: #fff;
+}
+.btn-gray{
+    background-color: #6a7079 ;
+    color: #fff;
+    transition: background 0.3s;
+}
+
+.btn-gray:hover {
+    background-color: #929498;
+    color: #fff;
+}
+/* ============================== Первая секция с контентом ===================*/
+.cotent-section{
+    padding: 40px;
+}
+.cotent-section h4{
+    padding: 10px 0;
+}
+/* ============================== Правая менюшка ===================*/
+.cotent-menu{
+    padding-top: 60px;
+    padding-left: 0;
+}
+
+.nav-tabs{
+    border: 3px solid #ececec;
+
+}
+.tab-pane {
+    border-bottom: 3px solid #ececec;
+    border-left:   3px solid #ececec;
+    border-right:  3px solid #ececec;
+}
+
+.nav-tabs:not(.active) {
+    background-color: #ececec;
+
+}
+.nav-tabs:not(.active) li a {
+     font-size: 18px;
+     font-family: Ubuntu, sans-serif;
+ }
+
+.one-menu .nav-tabs:not(.active) li  {
+    width: 50%;
+}
+.nav-tabs .active li{
+    border: none;
+    color: #9097a1;
+    font-size: 18px;
+
+}
+.nav-tabs  > li > a{
+    border-radius:0;
+    color: #abb1ba;
+
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    color: #9097a1;
+}
+.nav-tabs  > li{
+    margin-bottom: -3px;
+}
+/*контент внутри меню*/
+.tab-content p{
+    padding: 25px;
+}
+.tab-content li{
+     list-style: none;
+    padding-bottom: 10px;
+ }
+.tab-content ul{
+    list-style: none;
+    padding-left: 25px;
+}
+.fa-check-circle{
+    color: #2cc7c1;
+    padding-right: 7px;
+}
+
+.download-pdf{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*----------------------------------- Блок спикеров -------------------------------------*/
+.spicers{
+    padding: 30px 0 ;
+}
+.spicers-head{
+    padding: 0 0 50px 0;
+}
+.spicers-footer{
+    padding: 30px 0 ;
+    max-width: 700px;
+    display: inline-block;
+}
+.spicers .col-md-3{
+    padding-bottom: 30px;
+}
+.spicer-hover img{
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+
+}
+.spicer-hover > i:hover{
+    opacity: 0.8;
+    z-index: 3;
+}
+
+
+.spicer-hover i{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-color: #6bd8d3;
+    opacity: 0;
+    vertical-align: middle;
+    padding-top: 50px ;
+    font-size: 45px;
+    border-radius: 50%;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.spicer-hover a{
+    color: #777a7d;
+    font-size: 20px;
+    font-weight: normal;
+}
+.fa-twitter{
+color: #fff;
+}
+
+/* =============== АКАРДИОН =============================*/
+.acardion-menu{
+
+    vertical-align: middle;
+    padding: 25px 0 0 0;
+    margin: 0;
+
+}
+.acardion-menu:last-child{
+    padding-bottom: 25px;
+}
+.time{
+    padding-left: 5px;
+}
+.time span{
+    background-color: #2cc7c1;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Ubuntu, sans-serif;
+    padding: 2px;
+}
+.acardion-menu-span{
+    color: #747a84;
+    font-size: 18px;
+    font-family: Ubuntu, sans-serif;
+}
+.fa-plus-circle, .fa-minus-circle{
+color: #2cc7c1;
+    font-size: 20px;
+}
+.text-acardion {
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding: 0;
+    color: #999;
+    font-size: 16px;
+    font-family: Ubuntu, sans-serif;
+    padding-top: 15px;
+}
+.bloc-acardion{
+    padding: 35px 25px 0 25px;
+}
+
+.hidden{
+    display: none;
+
+}
+
+/* ====================Секция 3 с видео ====================*/
+.section-three{
+    padding:  40px 0;
+}
+.video-youtube{
+    padding:  60px 0 30px 50px;
+}
+.fa-arrow-circle-right{
+    padding-left: 7px;
+}
+
+
+.cotent-section-three{
+    padding: 40px 0 30px 40px;
+}
+
+/*=========================== Карусель ========================*/
+.section-carusel img{
+    width: 100%;
+}
+
+
+/*=========================== Секция текст перед емейлом ========================*/
+.text-email-form{
+    padding: 50px 0;
+    margin: 0 auto;
+    max-width: 750px;
+    text-align: center;
+
+}
+/*=========================== Секция с емейлом ========================*/
+
+.section-email{
+    background-color: #f3f3f3;
+}
+.email-form{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+.form-section .col-md-3 input{
+
+    margin-right: 20px;
+    height: 44px;
+
+}
+.button-selector{
+    margin: 0;
+}
+
+.form-section a{
+    margin: 0;
+    padding: 11px 40px;
+}
+.form-section a:hover{
+    color: #fff;
+
+}
+.button-selector{
+    width: 175px;
+    background-color: #2cc7c1;
+    color: #fff;
+    z-index: 31;
+    height: 44px;
+
+}
+.dropdown-menu{
+    background-color: #525b64;
+    box-shadow: 0;
+    border: 0;
+    margin: 0;
+    right: 21px;
+    top: 45px;
+    z-index: 30;
+}
+
+.dropdown-menu ul{
+    border-radius: 0; width: 100%;
+}
+.dropdown-menu li a{
+    color:#2cc7c1;
+    font-size: 18px;
+    font-family: Ubuntu, sans-serif;
+
+}
+.dropdown-menu {
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0;
+
+}
+.dropdown-menu li a:hover{
+    background-color: #525b64;
+    color:#fff;
+    box-shadow: none;
+}
+.fa-caret-down{
+    color: #219d99;
+    font-size: 14px;
+    padding-left: 35px;
+}
+.email-form{
+    margin-bottom: 90px;
+}
+
+/*======================== Блок партнеров ================================*/
+.section-partners{
+    padding: 40px 0;
+}
+.section-partners img{
+    padding: 20px;
+}
+.section-carta{
+    background: url("../img/map.jpg") no-repeat center;
+    background-size: cover;
+
+    height: 70vh;
+}
+
+/*========================= ФУТЕР =============================*/
+.footer-menu{
+    background-color: #525b64;
+    padding: 10px 10px 50px 10px;
+}
+
+footer a{
+    font-weight: normal;
+}
+footer h4{
+    padding-top: 30px;
+    color: #fff;
+}
+footer p{
+    color: #cdd0d2;
+}
+footer i{
+    padding-right: 7px;
+}
+footer img{
+    padding-right: 7px;
+}
+
+
+.footer-end{
+    padding: 10px 0;
+    background-color: #3f464c;
+    font-family: Ubuntu, sans-serif;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+
+@media only screen and (max-width : 985px) {
+.form-section a{
+    margin-top: 15px;
+    width: 100%;
+}
+    .form-section a:hover{
+        color: #fff;
+    }
+    .button-selector {
+        width: 100%;
+    }
+    .dropdown.open ul{
+        width: 100%;
+    }
+    .open > .dropdown-menu{
+        position: static;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .video-youtube{
+        padding:  30px 10px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .logo {
+        max-width: 320px;
+    }
+
+    .logo h3 {
+        font-size: 16px;
+    }
+
+    .logo p {
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    /*менюшка*/
+    .tab-content .col-xs-5, .tab-content .col-xs-7 {
+        width: 100%;
+
+    }
+
+    .tab-content .col-xs-5 > img {
+
+        padding-left: 50px;
+    }
+    .col-xs-3{
+        width: 100%;
+    }
+    .acardion-menu-span{
+        font-size: 14px;
+        padding: 20px ;
+    }
+    .time span{
+        font-size: 14px;
+
+    }
+    .text-acardion{
+        font-size: 15px;
+
+
+    }
+    .fa-plus-circle, .fa-minus-circle{
+        font-size: 14px;
+        padding: 30px  0;
+    }
+    #minus i{
+        display: none;
+    }
+    .partner{
+        width: 100%;
+    }
+}
+
